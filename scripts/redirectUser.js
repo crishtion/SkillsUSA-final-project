@@ -4,9 +4,9 @@ let goDoorDecorMore = document.getElementById("trinkets");
 
 
 goBreadAndBeyond.addEventListener("click", ()=>{
-    location.href = "/bread-and-goods-shop.html";
+    location.href = "bread-and-goods-shop.html";
 })
 
 goLimitedOffers.addEventListener("click", ()=>{
-    location.href = "/LimitedTime.html";
+    location.href = "LimitedTime.html";
 })

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Lea's Bread & Beyond</title>
+</head>
+<body>
+    <header id="home">
+        <nav>
+            <ul>
+                <li class="nav-item" >
+                    <a class="items active" id="home" href="/index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="items" id="order" href="#order-cont" href="#shop-menu">Order</a>
+                    <ul>
+                        <li>
+                            <a href="/bread-and-goods-shop.html">Bread & Beyond</a>
+                        </li>
+                        <li>
+                            <a href="/LimitedTime.html">Limited Offers</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="items" id="about-us" href="#about-cont">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="items" id="contact" href="#footer-cont">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a id="items-in-cart">0</a>
+                </li>
+                <li class="nav-item">
+                    <a id="dark-mode"><span id="buttonText" class="material-symbols-outlined">
+                        dark_mode
+                        </span>
+                        <span id="buttonText" class="material-symbols-outlined">
+                            light_mode
+                            </span></a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1 class="title">"One Bite and Your Hooked"</h1>
+        <article id="order-Cont">
+            <div id="shop-menu">
+                <div id="bread-beyond">
+                    <h3 class="divText">Lea's Bread and Beyond</h3>
+                </div>
+                <div id="limted-time">
+                    <h3 class="divText">Limited Time and Special events</h3>
+                </div>
+                <!-- TAKEN OUT DUE TO NO ITEMS TO BE DISPLAYED -->
+                <!-- <div id="trinkets">
+                    <h3 class="divText">Door Decor and More</h3>
+                </div> -->
+            </div>
+        </article>
+        <article id="about-cont">
+            <div class="sub-title-card">
+             <h2>About Us</h2>
+            </div>
+            <p id="about-text">We opened shop in 2024, in our little town of La Feria, Texas. 
+               For more than a year now our sole baker, crafter, and founder Leona Henderson,
+               has dedicated herself to providing our local community with baked goods and trinkets.
+               That are loved and bought by many. All boquets are assembled by hand, along with all cakes being made fresh by
+               our baker.
+            </p>
+        </article>
+    </main>
+    <div id="footer-cont" class="footer-container">
+        <div class="footer">
+            <div class="footer-heading">
+                <h3>Contact Us</h3>
+                <ul class="footer-item">
+                    <li><a href="#">Jobs</a></li>
+                    <li><a href="#">Support</a></li>
+                    <li><a href="mailto:mslkhenderson">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-heading">
+                <h3>Social Media</h3>
+                <ul class="footer-item">
+                    <li><a href="#">Instagram</a></li>
+                    <li><a href="#">Facebook</a></li>
+                </ul>
+            </div>
+            <div class="footer-email-form">
+                <h3>Join Our News Letter</h3>
+                <input type="email" placeholder="Enter your email address" id="footer-email">
+                <input type="submit" value="Sign Up" id="footer-email-button">
+            </div>
+        </div>
+    </div>
+<script src="scripts/darkModeScript.js"></script>
+<script src="scripts/navScripts.js"></script>
+<script src="scripts/redirectUser.js"></script>
+</body>
+</html>
